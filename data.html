@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>L'Attitude</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<section>
+        <hr>
+        <h2>Tables</h2>
+        <p>
+          <code>&lt;table&gt;</code> tags are for representing tabular data inside of a table. On their own, <code>table</code> tags don't do much. So we nest <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code> <code>&lt;th&gt;</code> tags
+          inside.
+        </p>
+        <p>For example, this HTML:</p>
+        <section>
+          <code>
+          &lt;table border=&quot;1&quot;&gt;
+            <br>&nbsp;&nbsp;&lt;tr&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Company&lt;&#x2F;th&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Contact&lt;&#x2F;th&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Email&lt;&#x2F;th&gt;
+            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+            <br>&nbsp;&nbsp;&lt;tr&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Google&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sergey Brin&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;sergey@google.com&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+            <br>&nbsp;&nbsp;&lt;tr&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Facebook&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Mark Zuckerburg&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;mark@facebook.com&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+            <br>&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Space X&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Elon Musk&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;elon@spacex.com&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+            <br>&nbsp;&nbsp;&lt;tr&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Amazon&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Jeff Bezos&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;jeff@amazon.com&lt;&#x2F;td&gt;
+            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+            <br>&lt;&#x2F;table&gt;
+          </code>
+        </section>
+        <p>Produces this table:</p>
+        <table border="1">
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Email</th>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>Sergey Brin</td>
+            <td>sergey@google.com</td>
+          </tr>
+          <tr>
+            <td>Facebook</td>
+            <td>Mark Zuckerburg</td>
+            <td>mark@facebook.com</td>
+          </tr>
+          <tr>
+            <td>Space X</td>
+            <td>Elon Musk</td>
+            <td>elon@spacex.com</td>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td>Jeff Bezos</td>
+            <td>jeff@amazon.com</td>
+          </tr>
+        </table>
