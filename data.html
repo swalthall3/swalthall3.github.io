@@ -12,46 +12,40 @@
 
   <link rel="stylesheet" href="styles.css">
 </head>
-<section>
-        <hr>
-        <h2>Tables</h2>
-        <p>
-          <code>&lt;table&gt;</code> tags are for representing tabular data inside of a table. On their own, <code>table</code> tags don't do much. So we nest <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code> <code>&lt;th&gt;</code> tags
-          inside.
-        </p>
-        <p>For example, this HTML:</p>
-        <section>
-          <code>
-          &lt;table border=&quot;1&quot;&gt;
-            <br>&nbsp;&nbsp;&lt;tr&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Company&lt;&#x2F;th&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Contact&lt;&#x2F;th&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Email&lt;&#x2F;th&gt;
-            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
-            <br>&nbsp;&nbsp;&lt;tr&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Google&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sergey Brin&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;sergey@google.com&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
-            <br>&nbsp;&nbsp;&lt;tr&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Facebook&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Mark Zuckerburg&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;mark@facebook.com&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
-            <br>&nbsp;&nbsp;&nbsp;&lt;tr&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Space X&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Elon Musk&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;elon@spacex.com&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
-            <br>&nbsp;&nbsp;&lt;tr&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Amazon&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Jeff Bezos&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;jeff@amazon.com&lt;&#x2F;td&gt;
-            <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
-            <br>&lt;&#x2F;table&gt;
-          </code>
-        </section>
-        <p>Produces this table:</p>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><h1>L'Attitude</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="plots.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="vis1.html">vis1</a>
+                        <a class="dropdown-item" href="vis2.html">vis2</a>
+                        <a class="dropdown-item" href="vis3.html">vis3</a>
+                        <a class="dropdown-item" href="vis4.html">vis4</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
         <table border="1">
           <tr>
             <th>Company</th>
@@ -79,3 +73,4 @@
             <td>jeff@amazon.com</td>
           </tr>
         </table>
+</body>
